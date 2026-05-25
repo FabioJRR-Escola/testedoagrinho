@@ -1,0 +1,205 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+}
+
+body {
+
+    background: #FFFFFF;
+
+    color: #1D3B2A;
+}
+
+/* HEADER */
+
+header {
+
+    background: #1D3B2A;
+
+    padding: 20px;
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+/* BANNER */
+
+.banner {
+
+    position: relative;
+
+    height: 300px;
+
+    overflow: hidden;
+}
+
+.banner-img {
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.banner-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0,0,0,0.70),
+            rgba(0,0,0,0.20)
+        );
+}
+
+.banner-conteudo {
+
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: end;
+
+    padding: 25px;
+
+    color: white;
+}
+
+.logo-banner {
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+    width: 85px;
+
+    height: 85px;
+
+    background: white;
+
+    padding: 10px;
+
+    border-radius: 20px;
+}
+
+.texto-banner h1 {
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+    max-width: 65%;
+}
+
+.texto-banner p {
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    max-width: 80%;
+}
+
+/* SEÇÕES */
+
+.sessao {
+
+    padding: 25px 20px;
+}
+
+.sessao h2 {
+
+    margin-bottom: 18px;
+
+    color: #1D3B2A;
+
+    font-size: 28px;
+}
+
+/* CARDS */
+
+.cards {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.card,
+.card-produtor {
+
+    background: white;
+
+    border-radius: 22px;
+
+    padding: 18px;
+
+    box-shadow:
+        0 5px 18px rgba(0,0,0,0.08);
+}
+
+.card p {
+
+    line-height: 1.7;
+}
+
+.card-produtor img {
+
+    width: 100%;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    margin-bottom: 14px;
+}
+
+.card-produtor h3 {
+
+    margin-bottom: 10px;
+
+    color: #1D3B2A;
+}
+
+.card-produtor p {
+
+    line-height: 1.5;
+
+    color: #42634E;
+}
+
+/* FOOTER */
+
+footer {
+
+    background: #1D3B2A;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 20px;
+}
