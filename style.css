@@ -27,7 +27,7 @@ TELA INICIAL
             rgba(0,0,0,0.60),
             rgba(0,0,0,0.60)
         ), 
-        url('feira.jpeg'); 
+        url("imagens/feira.jpeg"); 
 
     background-size: cover;
     background-position: center;
