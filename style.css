@@ -371,40 +371,85 @@ footer {
 }
 
 /* =========================================
-MODO ESCURO
+ACESSIBILIDADE
 ========================================= */
 
-.dark-mode {
+.acessibilidade {
 
-    background: #121212;
+    display: flex;
 
-    color: #F0F0F0;
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 14px 18px;
+
+    background: white;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 900;
+
+    box-shadow:
+        0 2px 10px rgba(0,0,0,0.08);
 }
 
-.dark-mode .caixa,
-.dark-mode .produtor,
-.dark-mode .produto,
-.dark-mode .receita,
-.dark-mode .inicio-box {
+.acessibilidade button {
 
-    background: #1E1E1E;
+    border: none;
+
+    background: #183222;
 
     color: white;
+
+    min-width: 55px;
+
+    height: 55px;
+
+    border-radius: 14px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    box-shadow:
+        0 4px 12px rgba(24,50,34,0.20);
 }
 
-.dark-mode section h2 {
+.acessibilidade button:hover {
 
-    color: #9FD3A5;
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 16px rgba(24,50,34,0.30);
 }
 
-.dark-mode .produtor-nome {
+.acessibilidade button:active {
 
-    color: #B8DDBB;
+    transform: scale(0.96);
 }
 
-.dark-mode .acessibilidade {
+/* BOTÃO MODO ESCURO */
 
-    background: #1E1E1E;
+.acessibilidade button:first-child {
 
-    border-color: #333;
+    min-width: 150px;
+
+    gap: 8px;
+
+    padding: 0 18px;
 }
