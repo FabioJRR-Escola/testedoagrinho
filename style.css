@@ -369,3 +369,42 @@ footer {
 
     margin-top: 25px;
 }
+
+/* =========================================
+MODO ESCURO
+========================================= */
+
+.dark-mode {
+
+    background: #121212;
+
+    color: #F0F0F0;
+}
+
+.dark-mode .caixa,
+.dark-mode .produtor,
+.dark-mode .produto,
+.dark-mode .receita,
+.dark-mode .inicio-box {
+
+    background: #1E1E1E;
+
+    color: white;
+}
+
+.dark-mode section h2 {
+
+    color: #9FD3A5;
+}
+
+.dark-mode .produtor-nome {
+
+    color: #B8DDBB;
+}
+
+.dark-mode .acessibilidade {
+
+    background: #1E1E1E;
+
+    border-color: #333;
+}
